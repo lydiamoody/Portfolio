@@ -1,4 +1,44 @@
 body {
-    background-color: var(--green);
+    background: linear-gradient(to bottom, rgba(150,172,205,1) 0%, rgba(145,157,191,1) 5%, rgba(128,110,149,1) 20%, rgba(150,172,205,1) 35%, rgba(150,172,205,1) 68%, rgba(128,110,149,1) 84%, rgba(140,145,181,1) 93%, rgba(150,172,205,1) 100%);
     font-family: var(--mainFont);
+}
+
+.slideshow{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-block {
+background-color: #434968;
+font-family: 'Josefin Sans', sans-serif;
+text-decoration: none;
+width: 60%;
+margin: auto;
+}
+.btn-block:hover {
+     background-color: #6C7C9E;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#iconRow {
+    align-content: center;
+    padding-left: 40em;
+}
+
+a {
+    color: #6C7C9E;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#434968; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.iconWrapper {
+    margin-right: 2vw;
 }

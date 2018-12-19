@@ -1,0 +1,16 @@
+.projectRow {
+color: black;
+font-size: 1.1em;
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.projects {
+color: white;
+text-align: center
+}
+
+h1 {
+    text-shadow: 1px 1px #421F44;
+}

@@ -3,10 +3,13 @@ background: url('https://cdn.pixabay.com/photo/2017/06/22/20/24/dewdrops-2432391
 background-size: cover;
 min-height: 325px;
 color: white;
-text-align: right;
 text-shadow: 1px 1px #421F44;
+text-align: center;
 }
 
+.display-4{
+    font-size: 6em;
+}
 .lead {
     font-size: 2em;
 }
